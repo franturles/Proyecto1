@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    color: white;
+    background-size: auto
+}
+form {
+    width:400px;
+    padding:16px;
+    text-align: center;
+    border-radius:10px;
+    border: black;
+    margin:auto;
+    background: black, transparent; 
+    background-color: black, transparent;
+}
+label {
+    text-align: left;
+    font-size: 20px;
+}
+input {
+    font-size: 20px;
+}
+select {
+    font-size: 18px;
+}
+textarea {
+    font-size: 17px;
+}
+button {
+    font-size: 17px;
+}
+.enlace {
+    background-color:grey;
+    width: 80pt;    
+    border-style: double;
+    border-radius: 79px 79px 79px 79px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a:hover {
+    color: red;
+}
+footer {
+    text-align: end;
+    margin-top: 17%;
+}
+/*!
+ * Bootstrap v4.5.3 (https://getbootstrap.com/)
+ 
