@@ -14,3 +14,9 @@ blockquote {
 a:hover {
     color: hotpink;
 }
+#horizontal {
+    padding: 0%;
+}
+#horizontal li {
+    display: inline;
+}
