@@ -22,8 +22,18 @@ a:hover {
     background-color: cornflowerblue;
     padding: 5px;
     color: white;
+    font-size: 15px;
+    text-decoration: none;
+    float: left;
 }
 .Banner {
-    background-color: #006bc9 ;
-    height: 195px;
+    background-image: url("../img/banner-1155437_960_720.png");
+    height: 206px;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#horizontal li a:hover {
+    background-color: #2586d7;
+    padding-bottom: 7px;
+    color: white;
 }
