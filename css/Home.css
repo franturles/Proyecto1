@@ -1,5 +1,5 @@
 * {
-    text-align: center; 
+    text-align: left; 
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -19,4 +19,11 @@ a:hover {
 }
 #horizontal li {
     display: inline;
+    background-color: cornflowerblue;
+    padding: 5px;
+    color: white;
+}
+.Banner {
+    background-color: rebeccapurple;
+    height: 195px;
 }
