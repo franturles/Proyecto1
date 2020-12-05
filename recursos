@@ -29,3 +29,44 @@
             <td>El costee de alquiler sera de 6€</td>
         </tr>
     </tfoot>
+
+
+    
+    <div class="somos">
+    <h2>¿Quienes Somos?</h2>
+    <p>Somos un nuevo servicio web que ofrece todo tipo de entretenimiento enfocado en la compra<br>venta de <strong>
+            Cine,Series y Videojuegos</strong> La principal característica diferenciadora de este servicio<br> es que
+        ofrece diferentes tipos de experiencia, es como un tres en uno donde puedes encontrar<br> el clásico servicio de
+        contenido bajo suscripción mensual, pero también un videoclub online de<br> estrenos por los que tienes que
+        pagar a parte.</p>
+    </div>
+
+    
+    <div class="horizontal">
+        <p>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href>¿Quienes somos?</a></li>
+            <li><a href=#>Catalogo</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+        </p>
+    </div>
+
+    
+.horizontal {
+    padding: 0%;
+}
+.horizontal li {
+    display: inline;
+    background-color: white;
+    padding: 5px 15px 5px;
+    color: white;
+    text-decoration: none;
+}
+.horizontal li a:hover {
+    background-color: #2586d7;
+    padding-bottom: 7px;
+    color: white;
+    overflow: hidden;
+}

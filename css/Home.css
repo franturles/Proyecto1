@@ -1,39 +1,75 @@
 * {
-    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../img/gris.jpg");
+    background-image: url("https://plantilla.org/wp-content/uploads/2012/01/textura-triangulos.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
 blockquote {
     text-align: right;
     font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
 }
-a:hover {
-    color: hotpink;
-}
-#horizontal {
-    padding: 0%;
-}
-#horizontal li {
-    display: inline;
-    background-color: cornflowerblue;
-    padding: 5px;
+blockquote a {
     color: white;
-    font-size: 15px;
+    background-color: black;
     text-decoration: none;
-    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .Banner {
-    background-image: url("../img/banner-1155437_960_720.png");
+    background-image: url("../img/banner2.jpg");
     height: 206px;
-    background-size: auto;
-    background-repeat: no-repeat;
+    background-size: 1350px;
+    background-position-y: 625%;
+    background-position-x: 300%;
+    margin-top: 0%;
 }
-#horizontal li a:hover {
-    background-color: #2586d7;
-    padding-bottom: 7px;
+nav {
+    background-color: royalblue;
+}
+nav ul {
+    background-color: royalblue;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+nav li {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    list-style: none;
+    padding: 3pt;
+}
+nav a{
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
     color: white;
 }
+nav a:hover {
+    background-color: black;
+}
+article {
+    text-align: center;
+}
+.bienvenido {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 8%;
+    font-size: xx-large;
+    font-style: oblique;
+}
+.cartel img{
+    width: 200px;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+    border: solid grey 12px;
+}
+.somos {
+    margin-top: 20%;
+}
+
