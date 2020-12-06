@@ -1,0 +1,61 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://plantilla.org/wp-content/uploads/2012/01/textura-triangulos.png");
+}
+blockquote {
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+blockquote a {
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Banner {
+    background-image: url("../img/banner2.jpg");
+    height: 206px;
+    background-size: 1350px;
+    background-position-y: 625%;
+    background-position-x: 300%;
+    margin-top: 0%;
+}
+nav {
+    background-color: royalblue;
+}
+nav ul {
+    background-color: royalblue;
+    padding: 0%;
+    margin: 0%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+nav li {
+    overflow: hidden;
+    float: left;
+    display: inline;
+    list-style: none;
+    padding: 3pt;
+}
+nav a{
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    background-color: black;
+}
+table {
+    width: 35%;
+    margin-left: 33%;
+}
+table td a {
+    text-decoration: none;
+}
+table td a:hover {}
