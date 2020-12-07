@@ -52,10 +52,27 @@ nav a:hover {
     background-color: black;
 }
 table {
-    width: 35%;
-    margin-left: 33%;
+    width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+    text-align: start;
 }
 table td a {
     text-decoration: none;
 }
-table td a:hover {}
+table td {
+    text-align: left;
+    vertical-align: top;
+    width: 40%;
+}
+table iframe {
+    size: 20pt;
+    width: 100%;
+    height: 150%;
+}
+button {
+    size: 20pt;
+    color: black;
+    border-bottom: black;
+    border-radius: 40pt;
+}
