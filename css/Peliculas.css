@@ -76,3 +76,6 @@ button {
     border-bottom: black;
     border-radius: 40pt;
 }
+table img{
+    width: 65%;
+}
