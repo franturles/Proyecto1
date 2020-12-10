@@ -47,4 +47,13 @@ footer {
 }
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
+*/
+#volver a {
+    text-decoration: none;
+    color: black;
+}
+#volver a:hover {
+    text-decoration: none;
+    color: black;
+}
  
