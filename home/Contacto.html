@@ -23,16 +23,25 @@
         </p>
     </nav>
     </div>
-    <div class="Ayuda">
-    <h2>Centro de Soporte:</h2>
-    <table border="2">
-        <tr>
-            <th colspan="3">Aun no hice mi pedido</th>
-        </tr>
-        <tr>
-            <td colspan="3"></td>
-        </tr>
-    </table>
+    </div>
+    <div class="Contacto">
+    <h1>Contacto:</h1>
+    <h2>Para cualquier duda contactenos y se la resolveremos</h2>
+    <form method="POST">
+        <label class="required" for="name">Nombre: </label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="30" />
+        <br>
+        <span id="name_validation" class="error_message"></span>
+        <br>
+        <label class="required" for="email">Email</label><br>
+        <input id="email" class="input" name="email" type="text" value="" size="30"/><br>
+        <span id="email_validation" class="error_message"></span>
+        <br>
+        <label>Escriba aqui su mensaje:</label><br>
+        <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br>
+        <br>
+        <button type="submit">Enviar Formulario</button>
+    </form>
     </div>
 </body>
 </html>

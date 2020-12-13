@@ -13,9 +13,11 @@ blockquote {
 }
 blockquote a {
     color: white;
-    background-color: black;
+    background-color: rgb(70, 9, 9);
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid white;
+    padding: 5px;
 }
 .Banner {
     background-image: url("../img/banner2.jpg");
@@ -83,4 +85,18 @@ table {
 }
 .Ayuda h2 {
     text-align: center;
+}
+.Contacto {
+    text-align: center;
+    border-radius: 10% 5%;
+    color: black;
+}
+.Contacto form input{
+    background-color: black;
+}
+.Contacto form textarea {
+    background-color: black;
+}
+.Contacto form button {
+    background-color: black;
 }
